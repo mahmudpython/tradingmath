@@ -22,10 +22,10 @@ print(f"Lost percentage: {lost_percentage} %")
 today = "lost_percentage"
 money = "current_price"
 
-if today == "lost persentage" and money > "current_price":
+if today == "money" < "lost percentage":
    print("oh no! loss my buseness")
 else:
-    print("wow! my buseness grow")
+    print("No! my buseness loss")
 
 
 
