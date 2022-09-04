@@ -20,7 +20,9 @@ lost_percentage = (lost_price*100)/current_price
 print(f"Lost percentage: {lost_percentage} %")
 
 today = "lost_percentage"
-if today == "lost persentage":
+money = "current_price"
+
+if today == "lost persentage" and money > "current_price"
    print("oh no! loss my buseness")
 else:
     print("wow! my buseness grow")
