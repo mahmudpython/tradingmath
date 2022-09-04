@@ -18,5 +18,19 @@ print(f"Height percentage: {high_percentage} %")
 lost_price = low_price-current_price
 lost_percentage = (lost_price*100)/current_price
 print(f"Lost percentage: {lost_percentage} %")
-print(f"My NAme: {lost_percentage} %")
 
+today = "lost_percentage"
+if today == "lost persentage":
+   print("oh no! loss my buseness")
+else:
+    print("wow! my buseness grow")
+
+
+
+today = "friday"
+if today == "friday" :
+    print("i am going to be a aleep")
+elif taday == "monday":
+    print("take your brother to dential hospital")
+else:
+    print("oh no! school! exam! no oh")
