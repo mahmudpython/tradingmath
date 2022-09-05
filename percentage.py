@@ -3,9 +3,8 @@ Now coin price is 100 taka.
 30 minus ago its down to 80 taka and 10 minutes ago its highest price was 120 taka.
 How much percentage the price goes and down?
 """
-
-current_price = int(input("What is current price ? :"))
 # TODO : Use input for high_price and low_price
+current_price = int(input("What is current_price?:"))
 high_price = int(input("What is high price ? :"))
 low_price = int(input("What is low price ? :"))
 
@@ -19,20 +18,24 @@ lost_price = low_price-current_price
 lost_percentage = (lost_price*100)/current_price
 print(f"Lost percentage: {lost_percentage} %")
 
-today = "lost_percentage"
-money = "current_price"
-
-if today == "money" < "lost percentage":
-   print("oh no! loss my buseness")
+today = "high_percentage:"
+if today == "high_persentage" :
+    print("wow! my buseness grow")
+if today == "lost_percentage" :
+    print("oh no! loss my buseness")
+elif today == "high_percentage" :
+    print("wow! grow our buseness")
 else:
-    print("No! my buseness loss")
+    print("oh no! loss my project")
 
 
 
-today = "friday"
-if today == "friday" :
+today = (input("what is dotay? : "))
+if today == "sunday" :
     print("i am going to be a aleep")
-elif taday == "monday":
+if today == "friday":
+    print("my holiday!")
+elif today == "monday":
     print("take your brother to dential hospital")
 else:
     print("oh no! school! exam! no oh")
